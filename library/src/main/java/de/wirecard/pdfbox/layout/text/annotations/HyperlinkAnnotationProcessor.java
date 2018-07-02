@@ -2,11 +2,11 @@ package de.wirecard.pdfbox.layout.text.annotations;
 
 import android.support.annotation.ColorInt;
 
-import com.tom_roush.pdfbox.pdmodel.PDDocument;
-import com.tom_roush.pdfbox.pdmodel.PDPage;
-import com.tom_roush.pdfbox.pdmodel.common.PDRectangle;
-import com.tom_roush.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink;
-import com.tom_roush.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
+import org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink;
+import org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination;
 
 import java.io.IOException;
 import java.util.ArrayList;

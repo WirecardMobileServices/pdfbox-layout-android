@@ -2,7 +2,7 @@ package de.wirecard.pdfbox.layout.text.annotations;
 
 import android.support.annotation.ColorInt;
 
-import com.tom_roush.pdfbox.pdmodel.font.PDFont;
+import org.apache.pdfbox.pdmodel.font.PDFont;
 
 import java.util.ArrayList;
 import java.util.Collection;

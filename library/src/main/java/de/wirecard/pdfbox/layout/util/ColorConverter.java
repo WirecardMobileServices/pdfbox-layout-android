@@ -3,8 +3,8 @@ package de.wirecard.pdfbox.layout.util;
 import android.graphics.Color;
 import android.support.annotation.ColorInt;
 
-import com.tom_roush.pdfbox.pdmodel.graphics.color.PDColor;
-import com.tom_roush.pdfbox.pdmodel.graphics.color.PDDeviceRGB;
+import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
+import org.apache.pdfbox.pdmodel.graphics.color.PDDeviceRGB;
 
 public class ColorConverter {
 

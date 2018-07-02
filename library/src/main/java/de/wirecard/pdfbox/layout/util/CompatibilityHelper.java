@@ -2,15 +2,15 @@ package de.wirecard.pdfbox.layout.util;
 
 import android.support.annotation.ColorInt;
 
-import com.tom_roush.harmony.awt.geom.AffineTransform;
-import com.tom_roush.pdfbox.pdmodel.PDPage;
-import com.tom_roush.pdfbox.pdmodel.common.PDRectangle;
-import com.tom_roush.pdfbox.pdmodel.interactive.action.PDActionGoTo;
-import com.tom_roush.pdfbox.pdmodel.interactive.action.PDActionURI;
-import com.tom_roush.pdfbox.pdmodel.interactive.annotation.PDAnnotation;
-import com.tom_roush.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink;
-import com.tom_roush.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary;
-import com.tom_roush.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination;
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
+import org.apache.pdfbox.pdmodel.interactive.action.PDActionGoTo;
+import org.apache.pdfbox.pdmodel.interactive.action.PDActionURI;
+import org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation;
+import org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink;
+import org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary;
+import org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination;
+import org.apache.pdfbox.util.awt.AffineTransform;
 
 import de.wirecard.pdfbox.layout.text.annotations.Annotations.HyperlinkAnnotation.LinkStyle;
 
@@ -147,8 +147,7 @@ public class CompatibilityHelper {
         float pageWidth = page.getMediaBox().getHeight();
         float pageHeight = page.getMediaBox().getWidth();
         AffineTransform transform = new AffineTransform();
-        transform.rotate(pageRotation * Math.PI / 180, pageHeight / 2,
-                pageWidth / 2);
+        transform.rotate(pageRotation * Math.PI / 180);
         double offset = Math.abs(pageHeight - pageWidth) / 2;
         transform.translate(-offset, offset);
         return transform;

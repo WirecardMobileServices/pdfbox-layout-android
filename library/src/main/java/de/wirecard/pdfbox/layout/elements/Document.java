@@ -1,7 +1,7 @@
 package de.wirecard.pdfbox.layout.elements;
 
-import com.tom_roush.pdfbox.pdmodel.PDDocument;
-import com.tom_roush.pdfbox.pdmodel.common.PDRectangle;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
 
 import java.io.File;
 import java.io.FileOutputStream;

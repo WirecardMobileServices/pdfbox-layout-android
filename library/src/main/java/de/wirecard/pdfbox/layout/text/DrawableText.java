@@ -1,6 +1,6 @@
 package de.wirecard.pdfbox.layout.text;
 
-import com.tom_roush.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.PDPageContentStream;
 
 import java.io.IOException;
 

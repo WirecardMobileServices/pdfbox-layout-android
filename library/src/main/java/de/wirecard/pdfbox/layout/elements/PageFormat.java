@@ -1,6 +1,6 @@
 package de.wirecard.pdfbox.layout.elements;
 
-import com.tom_roush.pdfbox.pdmodel.common.PDRectangle;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
 
 import de.wirecard.pdfbox.layout.elements.render.VerticalLayout;
 import de.wirecard.pdfbox.layout.text.Constants;

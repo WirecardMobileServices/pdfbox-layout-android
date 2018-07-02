@@ -1,8 +1,8 @@
 package de.wirecard.pdfbox.layout.text;
 
 
-import com.tom_roush.pdfbox.pdmodel.font.PDFont;
-import com.tom_roush.pdfbox.pdmodel.font.PDType1Font;
+import org.apache.pdfbox.pdmodel.font.PDFont;
+import org.apache.pdfbox.pdmodel.font.PDType1Font;
 
 /**
  * In order to easy handling with fonts, this enum bundles the

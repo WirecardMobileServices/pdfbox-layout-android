@@ -1,7 +1,7 @@
 package de.wirecard.pdfbox.layout.text;
 
-import com.tom_roush.pdfbox.pdmodel.PDPageContentStream;
-import com.tom_roush.pdfbox.util.Matrix;
+import org.apache.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.util.Matrix;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package de.wirecard.pdfbox.layout.text;
 
-import com.tom_roush.pdfbox.pdmodel.common.PDRectangle;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
 
 public class Constants {
 

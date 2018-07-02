@@ -30,7 +30,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.tom_roush:pdfbox-android:1.8.10.0'
+    implementation 'com.github.WirecardMobileServices:pdfbox-android-lite:1.8.9.2'
     implementation 'com.android.support:support-annotations:28.0.0-alpha3'
 
     testImplementation 'junit:junit:4.12'

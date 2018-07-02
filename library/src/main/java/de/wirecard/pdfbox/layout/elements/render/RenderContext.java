@@ -1,10 +1,10 @@
 package de.wirecard.pdfbox.layout.elements.render;
 
-import com.tom_roush.pdfbox.pdmodel.PDDocument;
-import com.tom_roush.pdfbox.pdmodel.PDPage;
-import com.tom_roush.pdfbox.pdmodel.PDPageContentStream;
-import com.tom_roush.pdfbox.pdmodel.common.PDRectangle;
-import com.tom_roush.pdfbox.util.Matrix;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
+import org.apache.pdfbox.util.Matrix;
 
 import java.io.Closeable;
 import java.io.IOException;

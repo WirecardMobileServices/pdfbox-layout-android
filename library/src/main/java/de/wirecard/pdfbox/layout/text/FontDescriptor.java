@@ -1,6 +1,6 @@
 package de.wirecard.pdfbox.layout.text;
 
-import com.tom_roush.pdfbox.pdmodel.font.PDFont;
+import org.apache.pdfbox.pdmodel.font.PDFont;
 
 /**
  * Container for a Font and size.

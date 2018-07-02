@@ -1,8 +1,8 @@
 package de.wirecard.pdfbox.layout.text.annotations;
 
-import com.tom_roush.pdfbox.pdmodel.PDDocument;
-import com.tom_roush.pdfbox.pdmodel.PDPage;
-import com.tom_roush.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.PDPageContentStream;
 
 import java.io.IOException;
 

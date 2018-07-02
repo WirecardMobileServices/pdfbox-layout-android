@@ -3,7 +3,7 @@ package de.wirecard.pdfbox.layout.text;
 import android.graphics.Color;
 import android.support.annotation.ColorInt;
 
-import com.tom_roush.pdfbox.pdmodel.font.PDFont;
+import org.apache.pdfbox.pdmodel.font.PDFont;
 
 import java.io.IOException;
 import java.util.ArrayList;

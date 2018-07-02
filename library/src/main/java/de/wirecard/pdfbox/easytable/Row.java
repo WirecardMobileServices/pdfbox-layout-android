@@ -2,7 +2,7 @@ package de.wirecard.pdfbox.easytable;
 
 import android.support.annotation.ColorInt;
 
-import com.tom_roush.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.PDPageContentStream;
 
 import java.util.ArrayList;
 import java.util.Collections;

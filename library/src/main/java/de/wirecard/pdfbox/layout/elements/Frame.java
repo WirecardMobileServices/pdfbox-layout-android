@@ -2,8 +2,8 @@ package de.wirecard.pdfbox.layout.elements;
 
 import android.support.annotation.ColorInt;
 
-import com.tom_roush.pdfbox.pdmodel.PDDocument;
-import com.tom_roush.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPageContentStream;
 
 import java.io.IOException;
 import java.util.Collection;
