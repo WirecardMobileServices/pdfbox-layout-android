@@ -24,7 +24,7 @@ public class Row {
         }
     }
 
-    public void setOnCustomDraw(CustomContentDrawer onCustomDraw) {
+    private void setOnCustomDraw(CustomContentDrawer onCustomDraw) {
         this.onCustomDraw = onCustomDraw;
     }
 
