@@ -36,7 +36,7 @@ public class TableDrawer {
 
             if (row.getOnCustomDraw() != null) {
                 row.getOnCustomDraw().draw(contentStream, startX, startY);
-                startY -= row.getOnCustomDraw().getCustomContentHeight();
+                startY -= row.getHeightWithoutFontHeight();
             } else {
                 final float rowHeight = table.getFontHeight() + row.getHeightWithoutFontHeight();
                 int columnCounter = 0;

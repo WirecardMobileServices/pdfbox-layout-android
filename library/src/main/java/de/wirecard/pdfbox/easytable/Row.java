@@ -112,8 +112,6 @@ public class Row {
 
     public interface CustomContentDrawer {
         void draw(PDPageContentStream contentStream, float startX, float startY);
-
-        float getCustomContentHeight();
     }
 
 }
