@@ -80,7 +80,7 @@ public class Table {
     public float getHeight() {
         float height = 0;
         for (final Row row : rows) {
-            height += row.getHeightWithoutFontHeight() + (row.getOnCustomDraw() == null ? 0 : this.getFontHeight());
+            height += row.getHeightWithoutFontHeight() + (row.getOnCustomDraw() == null ? this.getFontHeight() : 0);
         }
         return height;
     }
