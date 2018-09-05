@@ -74,7 +74,7 @@ public class Table {
     }
 
     public float getFontHeight() {
-        return (font.getFontDescriptor().getFontBoundingBox().getHeight() / 1000 * 2) + fontSize;
+        return fontSize;
     }
 
     public float getHeight() {
